@@ -22,42 +22,6 @@ class More extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            /* Container(
-              // autogroupfzpdNBX (F1ToxJbqUFs1fMDhACfzpd)
-              padding:
-                  EdgeInsets.fromLTRB(26 * fem, 13 * fem, 25 * fem, 13 * fem),
-              width: double.infinity,
-              decoration: BoxDecoration(
-                color: Color.fromARGB(255, 213, 225, 234),
-              ),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Container(
-                    // isolatedmonochromewhite13oT (124:37)
-                    margin: EdgeInsets.fromLTRB(
-                        0 * fem, 0 * fem, 191 * fem, 0 * fem),
-                    width: 100 * fem,
-                    height: 40 * fem,
-                    child: Image.asset(
-                      'assets/page-1/images/isolated-monochrome-white-1-RiV.png',
-                      width: 100 * fem,
-                      height: 40 * fem,
-                    ),
-                  ),
-                  Container(
-                    // autogrouprhhwjAV (F1Tp9DTKeNTSPS3w6UrHHw)
-                    width: 48 * fem,
-                    height: 46 * fem,
-                    child: Image.asset(
-                      'assets/page-1/images/auto-group-rhhw.png',
-                      width: 48 * fem,
-                      height: 46 * fem,
-                    ),
-                  ),
-                ],
-              ),
-            ),*/
             Container(
               // autogrouppuffSKo (F1Tq82A1BL312zjShZpUfF)
               padding:

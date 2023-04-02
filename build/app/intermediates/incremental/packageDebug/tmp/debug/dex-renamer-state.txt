@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Mon Apr 03 00:07:49 WAT 2023
+=======
+#Sun Apr 02 18:28:05 WAT 2023
+>>>>>>> 3e9c3a82c27556552b9201b3b054e3d569067f6b
 base.0=C\:\\Users\\HP\\Solution-challenge-2023-Pulse\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
