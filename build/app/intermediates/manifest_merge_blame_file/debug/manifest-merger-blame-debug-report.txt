@@ -85,51 +85,60 @@
 70            android:name="flutterEmbedding"
 71            android:value="2" />
 72
-73        <service
-73-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
-74            android:name="com.lyokone.location.FlutterLocationService"
-74-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
-75            android:enabled="true"
-75-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
-76            android:exported="false"
-76-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
-77            android:foregroundServiceType="location" />
-77-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
-78
-79        <uses-library
-79-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-80            android:name="androidx.window.extensions"
-80-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-81            android:required="false" />
-81-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-82        <uses-library
-82-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-83            android:name="androidx.window.sidecar"
-83-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-84            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
-84-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
-85        <uses-library
-85-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HP\.gradle\caches\transforms-3\a0e34175b89fa528462076cc4208822f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
-86            android:name="org.apache.http.legacy"
-86-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HP\.gradle\caches\transforms-3\a0e34175b89fa528462076cc4208822f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
-87            android:required="false" />
-87-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HP\.gradle\caches\transforms-3\a0e34175b89fa528462076cc4208822f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
-88
-89        <activity
-89-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\082fa8f1e076fd76c98f4d760b4e67b1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-90-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\082fa8f1e076fd76c98f4d760b4e67b1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-91            android:exported="false"
-91-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\082fa8f1e076fd76c98f4d760b4e67b1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-92-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\082fa8f1e076fd76c98f4d760b4e67b1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+73        <activity
+73-->[:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+74            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+74-->[:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+75            android:exported="false"
+75-->[:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+76            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+76-->[:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+77
+78        <service
+78-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
+79            android:name="com.lyokone.location.FlutterLocationService"
+79-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
+80            android:enabled="true"
+80-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
+81            android:exported="false"
+81-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+82            android:foregroundServiceType="location" />
+82-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
+83
+84        <uses-library
+84-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+85            android:name="androidx.window.extensions"
+85-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+86            android:required="false" />
+86-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+87        <uses-library
+87-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+88            android:name="androidx.window.sidecar"
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+89            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+90        <uses-library
+90-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HP\.gradle\caches\transforms-3\a0e34175b89fa528462076cc4208822f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+91            android:name="org.apache.http.legacy"
+91-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HP\.gradle\caches\transforms-3\a0e34175b89fa528462076cc4208822f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+92            android:required="false" />
+92-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HP\.gradle\caches\transforms-3\a0e34175b89fa528462076cc4208822f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
 93
-94        <meta-data
-94-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\HP\.gradle\caches\transforms-3\5ff4a353de7064fc161fb566343d6916\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-95            android:name="com.google.android.gms.version"
-95-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\HP\.gradle\caches\transforms-3\5ff4a353de7064fc161fb566343d6916\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-96            android:value="@integer/google_play_services_version" />
-96-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\HP\.gradle\caches\transforms-3\5ff4a353de7064fc161fb566343d6916\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-97    </application>
+94        <activity
+94-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\082fa8f1e076fd76c98f4d760b4e67b1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\082fa8f1e076fd76c98f4d760b4e67b1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\082fa8f1e076fd76c98f4d760b4e67b1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\082fa8f1e076fd76c98f4d760b4e67b1\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
 98
-99</manifest>
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\HP\.gradle\caches\transforms-3\5ff4a353de7064fc161fb566343d6916\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\HP\.gradle\caches\transforms-3\5ff4a353de7064fc161fb566343d6916\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\HP\.gradle\caches\transforms-3\5ff4a353de7064fc161fb566343d6916\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+102    </application>
+103
+104</manifest>

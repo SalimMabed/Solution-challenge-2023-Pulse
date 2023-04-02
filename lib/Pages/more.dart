@@ -22,7 +22,7 @@ class More extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Container(
+            /*Container(
               // autogroupfzpdNBX (F1ToxJbqUFs1fMDhACfzpd)
               padding:
                   EdgeInsets.fromLTRB(26 * fem, 13 * fem, 25 * fem, 13 * fem),
@@ -57,7 +57,7 @@ class More extends StatelessWidget {
                   ),
                 ],
               ),
-            ),
+            ),*/
             Container(
               // autogrouppuffSKo (F1Tq82A1BL312zjShZpUfF)
               padding:
