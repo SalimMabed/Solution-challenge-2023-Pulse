@@ -42,6 +42,7 @@ dependencies:
   location: ^4.4.0
   google_fonts: ^4.0.3
   table_calendar: ^3.0.9
+  url_launcher: ^6.1.10
   
 
 dev_dependencies:
@@ -82,6 +83,20 @@ flutter:
     - assets/page-1/images/vector-6tD.png
     - assets/page-1/images/vector-6fo.png
     - assets/page-1/images/vector-sh7.png
+    - assets/page-1/images/icon-twitter.png
+    - assets/page-1/images/icon-facebook.png
+    - assets/page-1/images/icon-instagram.png
+    - assets/page-1/images/icon-whatsapp.png
+    - assets/page-1/images/icon-twitter.png
+    - assets/page-1/images/home-1-cS9.png
+    - assets/page-1/images/group-aLd.png
+    - assets/page-1/images/appointment-1-uAu.png
+    - assets/page-1/images/material-symbols-menu-da5.png
+    - assets/page-1/images/isolated-monochrome-white-1-RiV.png
+    - assets/page-1/images/auto-group-rhhw.png
+    - assets/page-1/images/icon-wallet.png
+    - assets/page-1/images/icon-leaderboard-star.png
+    - assets/page-1/images/vector-bcy.png
     - assets/maps_style.json
      #=- images/a_dot_burr.jpeg
      #- images/a_dot_ham.jpeg

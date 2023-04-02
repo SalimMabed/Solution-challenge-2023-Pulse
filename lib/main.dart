@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'Pages/maps.dart';
 import 'Pages/calendar.dart';
+import 'Pages/more.dart';
 
 void main() => runApp(const MyApp());
 
@@ -44,10 +45,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       style: optionStyle,
     ),
     CalendarWidget(),
-    Text(
-      'Index 3:more',
-      style: optionStyle,
-    ),
+    More(),
   ];
 
   final ValueNotifier<Color> _appBarColor =
