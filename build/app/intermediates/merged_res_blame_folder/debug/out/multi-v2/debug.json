@@ -1969,7 +1969,7 @@
             "outputFile": "com.example.pulse.app-merged_res-14:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\HP\\Pulse\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\HP\\Solution-challenge-2023-Pulse\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -4095,6 +4095,25 @@
             "outputFile": "com.example.pulse.app-merged_res-14:/values_values.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\HP\\Solution-challenge-2023-Pulse\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "120,124",
+                        "startColumns": "4,4",
+                        "startOffsets": "8584,8765",
+                        "endLines": "123,126",
+                        "endColumns": "12,12",
+                        "endOffsets": "8760,8929"
+                    }
+                },
+                {
                     "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-3\\5ff4a353de7064fc161fb566343d6916\\transformed\\jetified-play-services-basement-18.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,7",
@@ -4185,25 +4204,6 @@
                         "endLines": "7,8,9,10,80,145,149,358,370,378",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "339,399,451,496,5108,10021,10152,16348,16788,17097"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\HP\\Pulse\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "120,124",
-                        "startColumns": "4,4",
-                        "startOffsets": "8584,8765",
-                        "endLines": "123,126",
-                        "endColumns": "12,12",
-                        "endOffsets": "8760,8929"
                     }
                 }
             ]

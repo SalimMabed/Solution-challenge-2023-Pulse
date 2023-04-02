@@ -4,8 +4,8 @@ import 'dart:collection';
 
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'maps.dart';
-import 'calendar.dart';
+import 'Pages/maps.dart';
+import 'Pages/calendar.dart';
 
 void main() => runApp(const MyApp());
 
@@ -45,12 +45,12 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     ),
     CalendarWidget(),
     Text(
-      'Index 3:morrre',
+      'Index 3:more',
       style: optionStyle,
     ),
   ];
 
-  ValueNotifier<Color> _appBarColor =
+  final ValueNotifier<Color> _appBarColor =
       ValueNotifier<Color>(Colors.red); // initial color
 
   void _onItemTapped(int index) {
@@ -104,12 +104,12 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.calendar_month),
-            label: 'rendez-vous',
+            label: 'Apointments',
             backgroundColor: Colors.purple,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
-            label: 'more',
+            label: 'More',
             backgroundColor: Colors.pink,
           ),
         ],

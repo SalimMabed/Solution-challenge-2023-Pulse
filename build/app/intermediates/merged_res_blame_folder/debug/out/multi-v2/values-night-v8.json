@@ -4,7 +4,7 @@
             "outputFile": "com.example.pulse.app-mergeDebugResources-12:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\HP\\Pulse\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\HP\\Solution-challenge-2023-Pulse\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

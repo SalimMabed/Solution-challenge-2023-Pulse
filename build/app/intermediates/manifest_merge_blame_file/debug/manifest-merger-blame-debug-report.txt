@@ -13,14 +13,14 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\HP\Pulse\android\app\src\debug\AndroidManifest.xml:7:5-66
-15-->C:\Users\HP\Pulse\android\app\src\debug\AndroidManifest.xml:7:22-64
+15-->C:\Users\HP\Solution-challenge-2023-Pulse\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\HP\Solution-challenge-2023-Pulse\android\app\src\debug\AndroidManifest.xml:7:22-64
 16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->[:location] C:\Users\HP\Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
-16-->[:location] C:\Users\HP\Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+16-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+16-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
 17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
-17-->[:location] C:\Users\HP\Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
-17-->[:location] C:\Users\HP\Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
+17-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+17-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HP\.gradle\caches\transforms-3\a0e34175b89fa528462076cc4208822f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:5-79
 18-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\HP\.gradle\caches\transforms-3\a0e34175b89fa528462076cc4208822f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:23:22-76
@@ -86,15 +86,15 @@
 71            android:value="2" />
 72
 73        <service
-73-->[:location] C:\Users\HP\Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
+73-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
 74            android:name="com.lyokone.location.FlutterLocationService"
-74-->[:location] C:\Users\HP\Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
+74-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
 75            android:enabled="true"
-75-->[:location] C:\Users\HP\Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
+75-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
 76            android:exported="false"
-76-->[:location] C:\Users\HP\Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+76-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
 77            android:foregroundServiceType="location" />
-77-->[:location] C:\Users\HP\Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
+77-->[:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
 78
 79        <uses-library
 79-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
