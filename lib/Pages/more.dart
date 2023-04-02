@@ -22,13 +22,13 @@ class More extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Container(
+            /* Container(
               // autogroupfzpdNBX (F1ToxJbqUFs1fMDhACfzpd)
               padding:
                   EdgeInsets.fromLTRB(26 * fem, 13 * fem, 25 * fem, 13 * fem),
               width: double.infinity,
               decoration: BoxDecoration(
-                color: Color(0xff14181b),
+                color: Color.fromARGB(255, 213, 225, 234),
               ),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -57,7 +57,7 @@ class More extends StatelessWidget {
                   ),
                 ],
               ),
-            ),
+            ),*/
             Container(
               // autogrouppuffSKo (F1Tq82A1BL312zjShZpUfF)
               padding:
@@ -215,7 +215,7 @@ class More extends StatelessWidget {
                   Container(
                     // reportissuesY5K (124:41)
                     margin: EdgeInsets.fromLTRB(
-                        0 * fem, 0 * fem, 141 * fem, 28 * fem),
+                        0 * fem, 0 * fem, 130 * fem, 15 * fem),
                     child: Text(
                       'Report issues',
                       style: SafeGoogleFont(
@@ -230,7 +230,7 @@ class More extends StatelessWidget {
                   Container(
                     // contactdevelopersR97 (124:42)
                     margin: EdgeInsets.fromLTRB(
-                        0 * fem, 0 * fem, 65 * fem, 93 * fem),
+                        0 * fem, 0 * fem, 65 * fem, 80 * fem),
                     child: Text(
                       'Contact developers',
                       style: SafeGoogleFont(

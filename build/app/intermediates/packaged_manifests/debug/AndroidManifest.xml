@@ -70,6 +70,11 @@
             android:name="flutterEmbedding"
             android:value="2" />
 
+        <activity
+            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
         <service
             android:name="com.lyokone.location.FlutterLocationService"
             android:enabled="true"

@@ -1,6 +1,8 @@
 -- Merging decision tree log ---
 application
 INJECTED from C:\Users\HP\Solution-challenge-2023-Pulse\android\app\src\main\AndroidManifest.xml:3:4-35:19
+MERGED from [:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
 MERGED from [:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-18:19
 MERGED from [:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-18:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
@@ -33,6 +35,7 @@ INJECTED from C:\Users\HP\Solution-challenge-2023-Pulse\android\app\src\main\And
 MERGED from C:\Users\HP\Solution-challenge-2023-Pulse\android\app\src\main\AndroidManifest.xml:1:1-36:12
 MERGED from [:google_maps_flutter_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\HP\Solution-challenge-2023-Pulse\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
 MERGED from [:path_provider_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
@@ -84,6 +87,8 @@ MERGED from [:google_maps_flutter_android] C:\Users\HP\Solution-challenge-2023-P
 MERGED from [:google_maps_flutter_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\HP\Solution-challenge-2023-Pulse\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\HP\Solution-challenge-2023-Pulse\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
@@ -150,6 +155,14 @@ MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\HP\.grad
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\HP\.gradle\caches\transforms-3\a0e34175b89fa528462076cc4208822f\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from C:\Users\HP\Solution-challenge-2023-Pulse\android\app\src\debug\AndroidManifest.xml:7:22-64
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from [:location] C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
 	android:name
