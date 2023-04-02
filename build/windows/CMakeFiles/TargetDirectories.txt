@@ -1,0 +1,10 @@
+C:/Users/HP/Pulse/build/windows/CMakeFiles/INSTALL.dir
+C:/Users/HP/Pulse/build/windows/CMakeFiles/ALL_BUILD.dir
+C:/Users/HP/Pulse/build/windows/CMakeFiles/ZERO_CHECK.dir
+C:/Users/HP/Pulse/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Users/HP/Pulse/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Users/HP/Pulse/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+C:/Users/HP/Pulse/build/windows/flutter/CMakeFiles/INSTALL.dir
+C:/Users/HP/Pulse/build/windows/runner/CMakeFiles/pulse.dir
+C:/Users/HP/Pulse/build/windows/runner/CMakeFiles/INSTALL.dir
+C:/Users/HP/Pulse/build/windows/runner/CMakeFiles/ALL_BUILD.dir
