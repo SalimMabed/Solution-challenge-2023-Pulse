@@ -45,7 +45,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       style: optionStyle,
     ),
     CalendarWidget(),
-    More(),
+    //More(),
   ];
 
   final ValueNotifier<Color> _appBarColor =
