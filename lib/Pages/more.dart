@@ -75,7 +75,7 @@ class More extends StatelessWidget {
                                       width: 97.19 * fem,
                                       height: 88.54 * fem,
                                       child: Image.asset(
-                                        'assets/page-1/images/support.png',
+                                        'assets/page-1/images/supportass.png',
                                         width: 97.19 * fem,
                                         height: 88.54 * fem,
                                       ),
