@@ -1,34 +1,30 @@
 [
     {
-        "merged": "com.example.pulse.app-merged_res-14:/mipmap-hdpi_launcher.jpg.flat",
-        "source": "com.example.pulse.app-main-8:/mipmap-hdpi/launcher.jpg"
+        "merged": "com.example.pulse.app-merged_res-17:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.pulse.app-main-10:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.pulse.app-merged_res-14:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.example.pulse.app-main-8:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.example.pulse.app-merged_res-17:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.pulse.app-main-10:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.pulse.app-merged_res-14:/drawable_launch_background.xml.flat",
-        "source": "com.example.pulse.app-main-8:/drawable/launch_background.xml"
+        "merged": "com.example.pulse.app-merged_res-17:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.pulse.app-main-10:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.pulse.app-merged_res-14:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.pulse.app-main-8:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.example.pulse.app-merged_res-17:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.pulse.app-main-10:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.pulse.app-merged_res-14:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.example.pulse.app-main-8:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.example.pulse.app-merged_res-17:/mipmap-hdpi_launcher.jpg.flat",
+        "source": "com.example.pulse.app-main-10:/mipmap-hdpi/launcher.jpg"
     },
     {
-        "merged": "com.example.pulse.app-merged_res-14:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.example.pulse.app-main-8:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.example.pulse.app-merged_res-17:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.pulse.app-main-10:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.pulse.app-merged_res-14:/drawable-v21_launch_background.xml.flat",
-        "source": "com.example.pulse.app-main-8:/drawable-v21/launch_background.xml"
-    },
-    {
-        "merged": "com.example.pulse.app-merged_res-14:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.example.pulse.app-main-8:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.example.pulse.app-merged_res-17:/drawable-v21_launch_background.xml.flat",
+        "source": "com.example.pulse.app-main-10:/drawable-v21/launch_background.xml"
     }
 ]

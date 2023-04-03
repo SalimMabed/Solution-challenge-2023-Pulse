@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "570290816771",
+    "firebase_url": "https://stellar-acre-379720-default-rtdb.firebaseio.com",
+    "project_id": "stellar-acre-379720",
+    "storage_bucket": "stellar-acre-379720.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570290816771:android:9bbd872207472b130acb36",
+        "android_client_info": {
+          "package_name": "com.example.pulse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570290816771-jpltcqq7ff4qq7h8iadcpp84nhokg6fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkEHnYWEB0vMy9uBpfvJs5FAfvEKVsX6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570290816771-jpltcqq7ff4qq7h8iadcpp84nhokg6fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
