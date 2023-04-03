@@ -3,8 +3,6 @@ import 'utils.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_neumorphic/flutter_neumorphic.dart';
-
 
 class More extends StatelessWidget {
   @override
@@ -217,9 +215,9 @@ class More extends StatelessWidget {
                   Container(
                     // reportissuesY5K (124:41)
                     margin: EdgeInsets.fromLTRB(
-                        0 * fem, 0 * fem, 130 * fem, 15 * fem),
+                        0 * fem, 0 * fem, 0 * fem, 14 * fem),
                     child: Text(
-                      'Report issues',
+                      'Any problem?',
                       style: SafeGoogleFont(
                         'Roboto',
                         fontSize: 30 * ffem,
@@ -229,109 +227,73 @@ class More extends StatelessWidget {
                       ),
                     ),
                   ),
-                 
-                  
-                  
-                  
-                  
-                  
-                  
-                  
                   Container(
-  margin: EdgeInsets.fromLTRB(0, 0, 65, 93),
-  decoration: BoxDecoration(
-    color: Color(0xFFECF0F3),
-    borderRadius: BorderRadius.circular(20),
-    boxShadow: [
-      BoxShadow(
-        color: Colors.white,
-        offset: Offset(-5, -5),
-        blurRadius: 10,
-        spreadRadius: 0,
-      ),
-      BoxShadow(
-        color: Colors.grey[400]!,
-        offset: Offset(5, 5),
-        blurRadius: 10,
-        spreadRadius: 0,
-      ),
-    ],
-  ),
-  child: Container(
-    decoration: BoxDecoration(
-      gradient: LinearGradient(
-        colors: [
-          Color.fromARGB(255, 207, 70, 70),
-          Color.fromARGB(255, 255, 39, 19),
-        ],
-        begin: Alignment.topLeft,
-        end: Alignment.bottomRight,
-      ),
-      borderRadius: BorderRadius.circular(20),
-    ),
-    child: Material(
-      color: Colors.transparent,
-      child: InkWell(
-        onTap: () {
-          launch('https://www.linkedin.com/in/salim-mabed-27308a227');
-          launch('https://www.linkedin.com/in/hanine-bouchiba-aab62120b');
-          launch('https://www.linkedin.com/in/abderrahmanebenaissa');
-          launch('https://www.linkedin.com/in/hakim-ghernaout-266897251');
-        },
-        child: Container(
-          padding: EdgeInsets.symmetric(vertical: 15, horizontal: 30),
-          child: Text(
-            'Contact developers',
-            style: TextStyle(
-              fontFamily: 'Roboto',
-              fontSize: 30,
-              fontWeight: FontWeight.w500,
-              height: 1.1725,
-              color: Colors.white,
-            ),
-          ),
-        ),
-      ),
-    ),
-  ),
-),
-
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
+                    margin: EdgeInsets.fromLTRB(0, 0, 50, 93),
+                    decoration: BoxDecoration(
+                      color: Color(0xFFECF0F3),
+                      borderRadius: BorderRadius.circular(20),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.white,
+                          offset: Offset(-5, -5),
+                          blurRadius: 10,
+                          spreadRadius: 0,
+                        ),
+                        BoxShadow(
+                          color: Colors.grey[400]!,
+                          offset: Offset(5, 5),
+                          blurRadius: 10,
+                          spreadRadius: 0,
+                        ),
+                      ],
+                    ),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [
+                            Color.fromARGB(255, 207, 70, 70),
+                            Color.fromARGB(255, 255, 39, 19),
+                          ],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                        ),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Material(
+                        color: Colors.transparent,
+                        child: InkWell(
+                          onTap: () {
+                            launch(
+                                'https://www.linkedin.com/in/hanine-bouchiba-aab62120b');
+                            launch(
+                                'https://www.linkedin.com/in/abderrahmanebenaissa');
+                            launch(
+                                'https://www.linkedin.com/in/hakim-ghernaout-266897251');
+                            launch(
+                                'https://www.linkedin.com/in/salim-mabed-27308a227');
+                          },
+                          child: Container(
+                            padding: EdgeInsets.symmetric(
+                                vertical: 10, horizontal: 30),
+                            child: Text(
+                              'Contact developers',
+                              style: TextStyle(
+                                fontFamily: 'Roboto',
+                                fontSize: 30,
+                                fontWeight: FontWeight.w500,
+                                height: 1.1725,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
                   Container(
                     // sharewithyourfriends5jT (127:21)
                     margin: EdgeInsets.fromLTRB(
-                        0 * fem, 0 * fem, 8 * fem, 19 * fem),
+                        15 * fem, 10 * fem, 15 * fem, 5 * fem),
                     child: Text(
                       'Share with your friends',
                       textAlign: TextAlign.center,
@@ -347,7 +309,7 @@ class More extends StatelessWidget {
                   Container(
                     // autogroup9qch9zD (F1TprrvbXp4m3rh4gY9qcH)
                     margin: EdgeInsets.fromLTRB(
-                        38 * fem, 0 * fem, 35 * fem, 42.71 * fem),
+                        38 * fem, 0 * fem, 35 * fem, 30 * fem),
                     width: double.infinity,
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
