@@ -98,6 +98,9 @@ flutter:
     - assets/page-1/images/icon-leaderboard-star.png
     - assets/page-1/images/vector-bcy.png
     - assets/maps_style.json
+     - assets/page-1/images/support.png
+     - assets/page-1/images/rateus.png
+
      #=- images/a_dot_burr.jpeg
      #- images/a_dot_ham.jpeg
 
