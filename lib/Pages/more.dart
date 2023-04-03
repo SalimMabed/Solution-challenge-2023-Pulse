@@ -38,141 +38,179 @@ class More extends StatelessWidget {
                     height: 154 * fem,
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Container(
-                          // autogroupwfjvqMw (F1TpVxMmJdeR8ERfxxwfJV)
-                          margin: EdgeInsets.fromLTRB(
-                              0 * fem, 0 * fem, 8 * fem, 0 * fem),
-                          width: 189 * fem,
-                          height: double.infinity,
-                          child: Stack(
-                            children: [
-                              Positioned(
-                                // iconwallet8bw (125:6)
-                                left: 51 * fem,
-                                top: 12 * fem,
-                                child: Align(
-                                  child: SizedBox(
-                                    width: 97.19 * fem,
-                                    height: 88.54 * fem,
-                                    child: Image.asset(
-                                      'assets/page-1/images/icon-wallet.png',
-                                      width: 97.19 * fem,
-                                      height: 88.54 * fem,
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Positioned(
-                                // supporttheappBKK (125:17)
-                                left: 5 * fem,
-                                top: 114 * fem,
-                                child: Align(
-                                  child: SizedBox(
-                                    width: 179 * fem,
-                                    height: 30 * fem,
-                                    child: Text(
-                                      'Support the app',
-                                      textAlign: TextAlign.center,
-                                      style: SafeGoogleFont(
-                                        'Roboto',
-                                        fontSize: 25 * ffem,
-                                        fontWeight: FontWeight.w500,
-                                        height: 1.1725 * ffem / fem,
-                                        color: Color(0xff000000),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Positioned(
-                                // rectangle25RUZ (128:2)
-                                left: 0 * fem,
-                                top: 0 * fem,
-                                child: Align(
-                                  child: SizedBox(
-                                    width: 189 * fem,
-                                    height: 154 * fem,
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        borderRadius:
-                                            BorderRadius.circular(15 * fem),
-                                        border: Border.all(
-                                            color: Color(0xff000000)),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        Container(
-                          // autogroupmykbtsw (F1TpeNHQxynN3vu8CvMyKB)
-                          width: 189 * fem,
-                          height: double.infinity,
-                          child: Stack(
-                            children: [
-                              Positioned(
-                                // iconwallet8bw (125:6)
-                                left: 51 * fem,
-                                top: 12 * fem,
-                                child: Align(
-                                  child: SizedBox(
-                                    width: 97.19 * fem,
-                                    height: 88.54 * fem,
-                                    child: Image.asset(
-                                      'assets/page-1/images/icon-leaderboard-star.png',
-                                      width: 97.19 * fem,
-                                      height: 88.54 * fem,
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Positioned(
-                                // rateusQbP (125:16)
-                                left: 52.5 * fem,
-                                top: 114 * fem,
-                                child: Align(
-                                  child: SizedBox(
-                                    width: 84 * fem,
-                                    height: 30 * fem,
-                                    child: Text(
-                                      'Rate us',
-                                      textAlign: TextAlign.center,
-                                      style: SafeGoogleFont(
-                                        'Roboto',
-                                        fontSize: 25 * ffem,
-                                        fontWeight: FontWeight.w500,
-                                        height: 1.1725 * ffem / fem,
-                                        color: Color(0xff000000),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Positioned(
-                                // rectangle26GNh (128:4)
-                                left: 0 * fem,
-                                top: 0 * fem,
-                                child: Align(
-                                  child: SizedBox(
-                                    width: 189 * fem,
-                                    height: 154 * fem,
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        borderRadius:
-                                            BorderRadius.circular(15 * fem),
-                                        border: Border.all(
-                                            color: Color(0xff000000)),
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
+                        children: [
+                        
+
+
+GestureDetector(
+  onTap: () {
+    print('Thank you for supporting us !');
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text('Message'),
+        content: Text('Thank you for supporting us!'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text('OK'),
+          ),
+        ],
+      ),
+    );
+  },
+  child: Container(
+    // autogroupwfjvqMw (F1TpVxMmJdeR8ERfxxwfJV)
+    margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 8 * fem, 0 * fem),
+    width: 189 * fem,
+    height: double.infinity,
+    child: Stack(
+      children: [
+        Positioned(
+          // iconwallet8bw (125:6)
+          left: 51 * fem,
+          top: 12 * fem,
+          child: Align(
+            child: SizedBox(
+              width: 97.19 * fem,
+              height: 88.54 * fem,
+              child: Image.asset(
+                'assets/page-1/images/icon-wallet.png',
+                width: 97.19 * fem,
+                height: 88.54 * fem,
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          // supporttheappBKK (125:17)
+          left: 5 * fem,
+          top: 114 * fem,
+          child: Align(
+            child: SizedBox(
+              width: 179 * fem,
+              height: 30 * fem,
+              child: Text(
+                'Support the app',
+                textAlign: TextAlign.center,
+                style: SafeGoogleFont(
+                  'Roboto',
+                  fontSize: 25 * ffem,
+                  fontWeight: FontWeight.w500,
+                  height: 1.1725 * ffem / fem,
+                  color: Color(0xff000000),
+                ),
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          // rectangle25RUZ (128:2)
+          left: 0 * fem,
+          top: 0 * fem,
+          child: Align(
+            child: SizedBox(
+              width: 189 * fem,
+              height: 154 * fem,
+              child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(15 * fem),
+                  border: Border.all(color: Color(0xff000000)),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ],
+    ),
+  ),
+),
+
+
+GestureDetector(
+  onTap: () {
+    print('Thank you for rating our application  !');
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text('Message'),
+        content: Text('Thank you for rating our application !'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text('OK'),
+          ),
+        ],
+      ),
+    );
+  },
+  child: Container(
+    width: 189*fem,
+    height: double.infinity,
+    child: Stack(
+      children: [
+        Positioned(
+          // iconwallet8bw (125:6)
+          left: 51*fem,
+          top: 12*fem,
+          child: Align(
+            child: SizedBox(
+              width: 97.19*fem,
+              height: 88.54*fem,
+              child: Image.asset(
+                'assets/page-1/images/icon-leaderboard-star.png',
+                width: 97.19*fem,
+                height: 88.54*fem,
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          // rateusQbP (125:16)
+          left: 52.5*fem,
+          top: 114*fem,
+          child: Align(
+            child: SizedBox(
+              width: 84*fem,
+              height: 30*fem,
+              child: Text(
+                'Rate us',
+                textAlign: TextAlign.center,
+                style: SafeGoogleFont (
+                  'Roboto',
+                  fontSize: 25*ffem,
+                  fontWeight: FontWeight.w500,
+                  height: 1.1725*ffem/fem,
+                  color: Color(0xff000000),
+                ),
+              ),
+            ),
+          ),
+        ),
+        Positioned(
+          // rectangle26GNh (128:4)
+          left: 0*fem,
+          top: 0*fem,
+          child: Align(
+            child: SizedBox(
+              width: 189*fem,
+              height: 154*fem,
+              child: Container(
+                decoration: BoxDecoration (
+                  borderRadius: BorderRadius.circular(15*fem),
+                  border: Border.all(color: Color(0xff000000)),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ],
+    ),
+  ),
+)
+
+
+          
                       ],
                     ),
                   ),
