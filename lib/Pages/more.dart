@@ -3,6 +3,8 @@ import 'utils.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'package:flutter/services.dart';
+import 'package:flutter_neumorphic/flutter_neumorphic.dart';
+
 
 class More extends StatelessWidget {
   @override
@@ -227,21 +229,84 @@ class More extends StatelessWidget {
                       ),
                     ),
                   ),
+                 
+                  
                   Container(
-                    // contactdevelopersR97 (124:42)
-                    margin: EdgeInsets.fromLTRB(
-                        0 * fem, 0 * fem, 65 * fem, 80 * fem),
-                    child: Text(
-                      'Contact developers',
-                      style: SafeGoogleFont(
-                        'Roboto',
-                        fontSize: 30 * ffem,
-                        fontWeight: FontWeight.w500,
-                        height: 1.1725 * ffem / fem,
-                        color: Color(0xff000000),
-                      ),
-                    ),
-                  ),
+  margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 65*fem, 93*fem),
+  child: Neumorphic(
+    style: NeumorphicStyle(
+      color: Color(0xFFECF0F3),
+      depth: -5,
+      intensity: 0.7,
+      lightSource: LightSource.topLeft,
+      shape: NeumorphicShape.flat,
+      boxShape: NeumorphicBoxShape.roundRect(
+        BorderRadius.circular(20),
+      ),
+    ),
+    child: Container(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [
+            Color.fromARGB(255, 207, 70, 70),
+            Color.fromARGB(255, 255, 39, 19),
+          ],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+        borderRadius: BorderRadius.circular(20),
+      ),
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          onTap: () {
+
+            launch('https://www.linkedin.com/in/salim-mabed-27308a227');
+            launch('https://www.linkedin.com/in/hanine-bouchiba-aab62120b');
+            launch('https://www.linkedin.com/in/abderrahmanebenaissa');
+            launch('https://www.linkedin.com/in/hakim-ghernaout-266897251');
+
+
+
+
+          },
+          child: Container(
+            padding: EdgeInsets.symmetric(vertical: 15, horizontal: 30),
+            child: Text(
+              'Contact developers',
+              style: SafeGoogleFont(
+                'Roboto',
+                fontSize: 30*ffem,
+                fontWeight: FontWeight.w500,
+                height: 1.1725*ffem/fem,
+                color: Colors.white,
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+),
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
                   Container(
                     // sharewithyourfriends5jT (127:21)
                     margin: EdgeInsets.fromLTRB(
