@@ -41,7 +41,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   static List<Widget> _widgetOptions = <Widget>[
     Place(),
     Text(
-      'Index 1: rendez-vous',
+      'Index 1: rendez----vous',
       style: optionStyle,
     ),
     CalendarWidget(),
