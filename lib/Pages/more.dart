@@ -220,7 +220,7 @@ class More extends StatelessWidget {
                       'Any problem?',
                       style: SafeGoogleFont(
                         'Roboto',
-                        fontSize: 30 * ffem,
+                        fontSize: 25 * ffem,
                         fontWeight: FontWeight.w500,
                         height: 1.1725 * ffem / fem,
                         color: Color(0xff000000),
@@ -228,7 +228,7 @@ class More extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 50, 93),
+                    margin: EdgeInsets.fromLTRB(45, 0, 50, 93),
                     decoration: BoxDecoration(
                       color: Color(0xFFECF0F3),
                       borderRadius: BorderRadius.circular(20),
@@ -263,14 +263,48 @@ class More extends StatelessWidget {
                         color: Colors.transparent,
                         child: InkWell(
                           onTap: () {
-                            launch(
-                                'https://www.linkedin.com/in/hanine-bouchiba-aab62120b');
-                            launch(
-                                'https://www.linkedin.com/in/abderrahmanebenaissa');
-                            launch(
-                                'https://www.linkedin.com/in/hakim-ghernaout-266897251');
-                            launch(
-                                'https://www.linkedin.com/in/salim-mabed-27308a227');
+                            showDialog(
+                              context: context,
+                              builder: (BuildContext context) {
+                                return SimpleDialog(
+                                  title: Text('Choose a developer'),
+                                  children: [
+                                    SimpleDialogOption(
+                                      onPressed: () {
+                                        launch(
+                                            'https://www.linkedin.com/in/hanine-bouchiba-aab62120b');
+                                        Navigator.pop(context);
+                                      },
+                                      child: Text('Hanine Bouchiba'),
+                                    ),
+                                    SimpleDialogOption(
+                                      onPressed: () {
+                                        launch(
+                                            'https://www.linkedin.com/in/abderrahmanebenaissa');
+                                        Navigator.pop(context);
+                                      },
+                                      child: Text('Abderrahmane Benaissa'),
+                                    ),
+                                    SimpleDialogOption(
+                                      onPressed: () {
+                                        launch(
+                                            'https://www.linkedin.com/in/hakim-ghernaout-266897251');
+                                        Navigator.pop(context);
+                                      },
+                                      child: Text('Hakim Ghernaout'),
+                                    ),
+                                    SimpleDialogOption(
+                                      onPressed: () {
+                                        launch(
+                                            'https://www.linkedin.com/in/salim-mabed-27308a227');
+                                        Navigator.pop(context);
+                                      },
+                                      child: Text('Salim Mabed'),
+                                    ),
+                                  ],
+                                );
+                              },
+                            );
                           },
                           child: Container(
                             padding: EdgeInsets.symmetric(
@@ -279,7 +313,7 @@ class More extends StatelessWidget {
                               'Contact developers',
                               style: TextStyle(
                                 fontFamily: 'Roboto',
-                                fontSize: 30,
+                                fontSize: 26,
                                 fontWeight: FontWeight.w500,
                                 height: 1.1725,
                                 color: Colors.white,
