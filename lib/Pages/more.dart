@@ -75,7 +75,9 @@ GestureDetector(
               width: 97.19 * fem,
               height: 88.54 * fem,
               child: Image.asset(
-                'assets/page-1/images/icon-wallet.png',
+                
+                        'assets/page-1/images/support.png',
+
                 width: 97.19 * fem,
                 height: 88.54 * fem,
               ),
@@ -158,7 +160,8 @@ GestureDetector(
               width: 97.19*fem,
               height: 88.54*fem,
               child: Image.asset(
-                'assets/page-1/images/icon-leaderboard-star.png',
+                   'assets/page-1/images/rateus.png',
+
                 width: 97.19*fem,
                 height: 88.54*fem,
               ),
