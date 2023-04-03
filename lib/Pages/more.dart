@@ -272,6 +272,14 @@ class More extends StatelessWidget {
                                     SimpleDialogOption(
                                       onPressed: () {
                                         launch(
+                                            'https://www.linkedin.com/in/salim-mabed-27308a227');
+                                        Navigator.pop(context);
+                                      },
+                                      child: Text('Salim Mabed'),
+                                    ),
+                                    SimpleDialogOption(
+                                      onPressed: () {
+                                        launch(
                                             'https://www.linkedin.com/in/hanine-bouchiba-aab62120b');
                                         Navigator.pop(context);
                                       },
@@ -292,14 +300,6 @@ class More extends StatelessWidget {
                                         Navigator.pop(context);
                                       },
                                       child: Text('Hakim Ghernaout'),
-                                    ),
-                                    SimpleDialogOption(
-                                      onPressed: () {
-                                        launch(
-                                            'https://www.linkedin.com/in/salim-mabed-27308a227');
-                                        Navigator.pop(context);
-                                      },
-                                      child: Text('Salim Mabed'),
                                     ),
                                   ],
                                 );
