@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_template_lines_media.xml",
+        "source": "com.lyokone.location-media-1.0.0-4:/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_media_cancel_action.xml",
+        "source": "com.lyokone.location-media-1.0.0-4:/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_template_big_media.xml",
+        "source": "com.lyokone.location-media-1.0.0-4:/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/custom_dialog.xml",
+        "source": "com.lyokone.location-core-1.6.0-0:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_action.xml",
+        "source": "com.lyokone.location-core-1.6.0-0:/layout/notification_action.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_template_big_media_narrow.xml",
+        "source": "com.lyokone.location-media-1.0.0-4:/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_action_tombstone.xml",
+        "source": "com.lyokone.location-core-1.6.0-0:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_template_icon_group.xml",
+        "source": "com.lyokone.location-core-1.6.0-0:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_template_big_media_custom.xml",
+        "source": "com.lyokone.location-media-1.0.0-4:/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_template_media.xml",
+        "source": "com.lyokone.location-media-1.0.0-4:/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_template_part_chronometer.xml",
+        "source": "com.lyokone.location-core-1.6.0-0:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_template_media_custom.xml",
+        "source": "com.lyokone.location-media-1.0.0-4:/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "com.lyokone.location-media-1.0.0-4:/layout/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_media_action.xml",
+        "source": "com.lyokone.location-media-1.0.0-4:/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "com.lyokone.location-merged_res-14:/layout/notification_template_part_time.xml",
+        "source": "com.lyokone.location-core-1.6.0-0:/layout/notification_template_part_time.xml"
+    }
+]

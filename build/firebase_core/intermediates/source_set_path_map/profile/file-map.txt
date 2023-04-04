@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.3.2-0 C:\Users\HP\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\res
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-1 C:\Users\HP\.gradle\caches\transforms-3\1141b72fb8be4e566e7814849b1aa3a2\transformed\core-1.6.0\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-2 C:\Users\HP\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-3 C:\Users\HP\.gradle\caches\transforms-3\a6362f1fb79a6245a27920bb99ff99c3\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.1.0-4 C:\Users\HP\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-5 C:\Users\HP\.gradle\caches\transforms-3\ed438543a8e9ffa856a2b095c92f0ea3\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.firebase.core.firebase_core-main-6 C:\Users\HP\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-2.9.0\android\src\main\res
+io.flutter.plugins.firebase.core.firebase_core-profile-7 C:\Users\HP\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-2.9.0\android\src\profile\res
+io.flutter.plugins.firebase.core.firebase_core-pngs-8 C:\Users\HP\Solution-challenge-2023-Pulse\build\firebase_core\generated\res\pngs\profile
+io.flutter.plugins.firebase.core.firebase_core-resValues-9 C:\Users\HP\Solution-challenge-2023-Pulse\build\firebase_core\generated\res\resValues\profile
+io.flutter.plugins.firebase.core.firebase_core-rs-10 C:\Users\HP\Solution-challenge-2023-Pulse\build\firebase_core\generated\res\rs\profile
+io.flutter.plugins.firebase.core.firebase_core-mergeProfileResources-11 C:\Users\HP\Solution-challenge-2023-Pulse\build\firebase_core\intermediates\incremental\profile\mergeProfileResources\merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeProfileResources-12 C:\Users\HP\Solution-challenge-2023-Pulse\build\firebase_core\intermediates\incremental\profile\mergeProfileResources\stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-13 C:\Users\HP\Solution-challenge-2023-Pulse\build\firebase_core\intermediates\merged_res\profile

@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -30,16 +29,6 @@ class _MyPageState extends State<MyPage> {
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
     return Scaffold(
-      appBar: AppBar(
-        leading: const Icon(Icons.arrow_back),
-        backgroundColor: const Color(0xffd32f1b),
-        title: const Text(
-          'Check health',
-          style: TextStyle(
-            color: Colors.white,
-          ),
-        ),
-      ),
       body: SingleChildScrollView(
           child: Container(
               decoration: BoxDecoration(

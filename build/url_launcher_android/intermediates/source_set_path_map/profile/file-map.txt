@@ -1,0 +1,12 @@
+io.flutter.plugins.urllauncher.url_launcher_android-core-1.6.0-0 C:\Users\HP\.gradle\caches\transforms-3\1141b72fb8be4e566e7814849b1aa3a2\transformed\core-1.6.0\res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-window-1.0.0-beta04-1 C:\Users\HP\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-annotation-experimental-1.1.0-2 C:\Users\HP\.gradle\caches\transforms-3\a6362f1fb79a6245a27920bb99ff99c3\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-window-java-1.0.0-beta04-3 C:\Users\HP\.gradle\caches\transforms-3\ed438543a8e9ffa856a2b095c92f0ea3\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.urllauncher.url_launcher_android-main-4 C:\Users\HP\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.0.26\android\src\main\res
+io.flutter.plugins.urllauncher.url_launcher_android-profile-5 C:\Users\HP\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.0.26\android\src\profile\res
+io.flutter.plugins.urllauncher.url_launcher_android-pngs-6 C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\generated\res\pngs\profile
+io.flutter.plugins.urllauncher.url_launcher_android-resValues-7 C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\generated\res\resValues\profile
+io.flutter.plugins.urllauncher.url_launcher_android-rs-8 C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\generated\res\rs\profile
+io.flutter.plugins.urllauncher.url_launcher_android-mergeProfileResources-9 C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\incremental\profile\mergeProfileResources\merged.dir
+io.flutter.plugins.urllauncher.url_launcher_android-mergeProfileResources-10 C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\incremental\profile\mergeProfileResources\stripped.dir
+io.flutter.plugins.urllauncher.url_launcher_android-merged_res-11 C:\Users\HP\Solution-challenge-2023-Pulse\build\url_launcher_android\intermediates\merged_res\profile

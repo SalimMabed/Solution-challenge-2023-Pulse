@@ -1,0 +1,16 @@
+com.lyokone.location-core-1.6.0-0 C:\Users\HP\.gradle\caches\transforms-3\1141b72fb8be4e566e7814849b1aa3a2\transformed\core-1.6.0\res
+com.lyokone.location-jetified-window-1.0.0-beta04-1 C:\Users\HP\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\res
+com.lyokone.location-jetified-play-services-basement-16.0.1-2 C:\Users\HP\.gradle\caches\transforms-3\6a9820b888ad5c6587581f0214c774f1\transformed\jetified-play-services-basement-16.0.1\res
+com.lyokone.location-coordinatorlayout-1.0.0-3 C:\Users\HP\.gradle\caches\transforms-3\9a16fab522f969c3bed425ffb75ad872\transformed\coordinatorlayout-1.0.0\res
+com.lyokone.location-media-1.0.0-4 C:\Users\HP\.gradle\caches\transforms-3\a4874a1c1fd763c2bb3cb8d3a455804d\transformed\media-1.0.0\res
+com.lyokone.location-jetified-annotation-experimental-1.1.0-5 C:\Users\HP\.gradle\caches\transforms-3\a6362f1fb79a6245a27920bb99ff99c3\transformed\jetified-annotation-experimental-1.1.0\res
+com.lyokone.location-jetified-window-java-1.0.0-beta04-6 C:\Users\HP\.gradle\caches\transforms-3\ed438543a8e9ffa856a2b095c92f0ea3\transformed\jetified-window-java-1.0.0-beta04\res
+com.lyokone.location-jetified-play-services-base-16.0.1-7 C:\Users\HP\.gradle\caches\transforms-3\fe37cc820619579ebc088db8b39e9548\transformed\jetified-play-services-base-16.0.1\res
+com.lyokone.location-main-8 C:\Users\HP\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\main\res
+com.lyokone.location-profile-9 C:\Users\HP\AppData\Local\Pub\Cache\hosted\pub.dev\location-4.4.0\android\src\profile\res
+com.lyokone.location-pngs-10 C:\Users\HP\Solution-challenge-2023-Pulse\build\location\generated\res\pngs\profile
+com.lyokone.location-resValues-11 C:\Users\HP\Solution-challenge-2023-Pulse\build\location\generated\res\resValues\profile
+com.lyokone.location-rs-12 C:\Users\HP\Solution-challenge-2023-Pulse\build\location\generated\res\rs\profile
+com.lyokone.location-mergeProfileResources-13 C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\incremental\profile\mergeProfileResources\merged.dir
+com.lyokone.location-mergeProfileResources-14 C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\incremental\profile\mergeProfileResources\stripped.dir
+com.lyokone.location-merged_res-15 C:\Users\HP\Solution-challenge-2023-Pulse\build\location\intermediates\merged_res\profile

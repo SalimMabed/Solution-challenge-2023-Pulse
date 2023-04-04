@@ -45,6 +45,7 @@ dependencies:
   url_launcher: ^6.1.10
   firebase_auth: ^4.2.2
   cloud_firestore: ^4.5.0
+  firebase_core: ^2.9.0
   
 
 dev_dependencies:
@@ -102,7 +103,7 @@ flutter:
     - assets/maps_style.json
     - assets/page-1/images/supportass.png
     - assets/page-1/images/rateus.png
-
+    - assets/page-1/images/blood.png
      #=- images/a_dot_burr.jpeg
      #- images/a_dot_ham.jpeg
 

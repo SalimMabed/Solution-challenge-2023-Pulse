@@ -1,0 +1,19 @@
+#Tue Apr 04 12:07:27 WAT 2023
+path.4=1/classes.dex
+path.3=14/classes.dex
+path.2=0/classes.dex
+path.1=0/classes.dex
+path.5=classes2.dex
+path.0=classes.dex
+base.4=C\:\\Users\\HP\\Solution-challenge-2023-Pulse\\build\\app\\intermediates\\dex\\profile\\mergeProjectDexProfile\\1\\classes.dex
+base.3=C\:\\Users\\HP\\Solution-challenge-2023-Pulse\\build\\app\\intermediates\\dex\\profile\\mergeProjectDexProfile\\14\\classes.dex
+base.2=C\:\\Users\\HP\\Solution-challenge-2023-Pulse\\build\\app\\intermediates\\dex\\profile\\mergeProjectDexProfile\\0\\classes.dex
+base.1=C\:\\Users\\HP\\Solution-challenge-2023-Pulse\\build\\app\\intermediates\\dex\\profile\\mergeLibDexProfile\\0\\classes.dex
+base.0=C\:\\Users\\HP\\Solution-challenge-2023-Pulse\\build\\app\\intermediates\\dex\\profile\\mergeExtDexProfile\\classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+base.5=C\:\\Users\\HP\\Solution-challenge-2023-Pulse\\build\\app\\intermediates\\dex\\profile\\mergeExtDexProfile\\classes2.dex

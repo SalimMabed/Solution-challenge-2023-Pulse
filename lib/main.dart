@@ -7,8 +7,15 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'Pages/maps.dart';
 import 'Pages/calendar.dart';
 import 'Pages/more.dart';
+import 'Pages/check.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() => runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -34,16 +41,13 @@ class MyStatefulWidget extends StatefulWidget {
 class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   int _selectedIndex = 0;
   var markers = HashSet<Marker>();
-
+  final docuser = FirebaseFirestore.instance.collection('test');
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   // ignore: prefer_final_fields
   static List<Widget> _widgetOptions = <Widget>[
     Place(),
-    Text(
-      'Index 1: rendez----vous',
-      style: optionStyle,
-    ),
+    MyPage(),
     CalendarWidget(),
     More(),
   ];
@@ -54,20 +58,8 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
-      switch (index) {
-        case 0:
-          _appBarColor.value = Colors.red;
-          break;
-        case 1:
-          _appBarColor.value = Colors.green;
-          break;
-        case 2:
-          _appBarColor.value = Colors.purple;
-          break;
-        case 3:
-          _appBarColor.value = Colors.pink;
-          break;
-      }
+      _appBarColor.value =
+          (index == 0 || index == 2) ? Colors.red : Color(0xffd32f1b);
     });
   }
 
@@ -79,8 +71,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           '   Pulse',
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: _appBarColor.value, // use ValueNotifier here
-        // ignore: prefer_const_literals_to_create_immutables
+        backgroundColor: _appBarColor.value,
         actions: [
           Icon(Icons.water_drop_sharp, color: Colors.white),
         ],
@@ -98,17 +89,17 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           BottomNavigationBarItem(
             icon: Icon(Icons.question_answer),
             label: 'Questions',
-            backgroundColor: Colors.green,
+            backgroundColor: Color(0xffd32f1b),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.calendar_month),
             label: 'Apointments',
-            backgroundColor: Colors.purple,
+            backgroundColor: Colors.red,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
             label: 'More',
-            backgroundColor: Colors.pink,
+            backgroundColor: Color(0xffd32f1b),
           ),
         ],
         currentIndex: _selectedIndex,
